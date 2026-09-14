@@ -1,10 +1,10 @@
-🤟 SignSpeak-AI
+🤟 Ahmed-Deaf-11 ASL
 
 > AI-Powered Real-Time Sign Language Communication Assistant
 
-SignSpeak-AI is an AI-powered mobile application that bridges communication between hearing individuals and the Deaf community by translating spoken Indonesian into sign language gestures in real time.
+Ahmed-Deaf-11 ASL is an AI-powered mobile application that bridges communication between hearing individuals and the Deaf community by translating spoken Indonesian into sign language gestures in real time.
 
-Instead of displaying only text, SignSpeak-AI understands the context of spoken language using a Large Language Model (LLM), extracts meaningful gesture tokens, and plays corresponding sign language videos sequentially.
+Instead of displaying only text, Ahmed-Deaf-11 ASL understands the context of spoken language using a Large Language Model (LLM), extracts meaningful gesture tokens, and plays corresponding sign language videos sequentially.
 
 
 
@@ -255,7 +255,7 @@ Automatically plays multiple gesture videos in sequence.
 
 Traditional systems perform simple keyword matching.
 
-SignSpeak-AI uses a Large Language Model to understand the meaning of a sentence before selecting the most appropriate sign language gestures.
+Ahmed-Deaf-11 ASL uses a Large Language Model to understand the meaning of a sentence before selecting the most appropriate sign language gestures.
 
 This enables more accurate gesture selection while preserving the context of natural conversation.
 
@@ -273,7 +273,7 @@ This enables more accurate gesture selection while preserving the context of nat
 
 👥 Team
 
-Team SignSpeak-AI
+Team Ahmed-Deaf-11 ASL
 
 Built for the AMD Developer Challenge.
 
