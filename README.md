@@ -1,10 +1,10 @@
-🤟 SignSpeak-AI
+🤟 Ahmed-Deaf-11 ASL
 
 > AI-Powered Real-Time Sign Language Communication Assistant
 
-SignSpeak-AI is an AI-powered mobile application that bridges communication between hearing individuals and the Deaf community by translating spoken Indonesian into sign language gestures in real time.
+Ahmed-Deaf-11 ASL is an AI-powered mobile application that bridges communication between hearing individuals and the Deaf community by translating spoken Indonesian into sign language gestures in real time.
 
-Instead of displaying only text, SignSpeak-AI understands the context of spoken language using a Large Language Model (LLM), extracts meaningful gesture tokens, and plays corresponding sign language videos sequentially.
+Instead of displaying only text, Ahmed-Deaf-11 ASL understands the context of spoken language using a Large Language Model (LLM), extracts meaningful gesture tokens, and plays corresponding sign language videos sequentially.
 
 
 
@@ -60,9 +60,12 @@ Our AI pipeline consists of four main stages.
 
 1. Speech Recognition
 
-The application captures the user's speech using Flutter Speech-to-Text.
+import ‘package:speech_to_text/speech_to_text.dart’;
 
-Example
+class SpeechService {
+  final SpeechToText _speech = SpeechToText();
+
+  Future<String> listen() async {
 
 
 ```
@@ -132,19 +135,23 @@ Public URLs
 
 4. Sequential Gesture Playback
 
-Gesture videos are played automatically in sequence.
+void _videoListener() {
 
-```
-halo.mp4
+  if (controller == null) return;
+  
+  final value = controller!.value;
 
-↓
+  if (!value.isInitialized) return;
 
-apa.mp4
+  if (_changingVideo) return;
 
-↓
+  if (value.duration !- Duration.zero &&
+      value.position >=
+          value.duration - const Duration(milliseconds: 100)) {
 
-kabar.mp4
-```
+    _changingVideo = true;
+
+    current index++;
 
 This creates a smooth sign language animation for the user.
 
@@ -255,7 +262,7 @@ Automatically plays multiple gesture videos in sequence.
 
 Traditional systems perform simple keyword matching.
 
-SignSpeak-AI uses a Large Language Model to understand the meaning of a sentence before selecting the most appropriate sign language gestures.
+Ahmed-Deaf-11 ASL uses a Large Language Model to understand the meaning of a sentence before selecting the most appropriate sign language gestures.
 
 This enables more accurate gesture selection while preserving the context of natural conversation.
 
@@ -273,7 +280,7 @@ This enables more accurate gesture selection while preserving the context of nat
 
 👥 Team
 
-Team SignSpeak-AI
+Team Ahmed-Deaf-11 ASL
 
 Built for the AMD Developer Challenge.
 
