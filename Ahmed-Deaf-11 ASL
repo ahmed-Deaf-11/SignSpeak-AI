@@ -1,20 +1,20 @@
-🤟 SignSpeak-AI
+🤟 Ahmed-Deaf-11 ASL
 
-> AI-Powered Real-Time Sign Language Communication Assistant
+> AI-Powered Real-Time Sign Language Communication Assistant languages Arabic English
 
-SignSpeak-AI is an AI-powered mobile application that bridges communication between hearing individuals and the Deaf community by translating spoken Indonesian into sign language gestures in real time.
+Ahmed-Deaf-11 ASL is an AI-powered mobile application that bridges communication between hearing individuals and the Deaf community by translating spoken Indonesian into sign language gestures in real time.
 
-Instead of displaying only text, SignSpeak-AI understands the context of spoken language using a Large Language Model (LLM), extracts meaningful gesture tokens, and plays corresponding sign language videos sequentially.
+Instead of displaying only text, Ahmed-Deaf-11 ASL understands the context of spoken language using a Large Language Model (LLM), extracts meaningful gesture tokens, and plays corresponding sign language videos sequentially.
 
 
 
 ✨ Features
 
-- 🎤 Real-time Speech Recognition
-- 🧠 AI Context Understanding
-- 🌎 Indonesian → English Translation
-- 🤟 Automatic Sign Language Gesture Extraction
-- 🎬 Sequential Sign Language Video Playback
+- 🎤 Real-time Speech Recognition ASL video Gboard
+- 🧠 AI Context Understanding Arabic English
+- 🌎 languages → Arabic English 
+- 🤟 Automatic Sign Language Gesture Extraction languages Arabic English 
+- 🎬 Sequential Sign Language Video Playback languages Arabic English 
 - ☁️ Cloud-based Gesture Database (Supabase)
 - 📱 Cross-platform Mobile Application (Flutter)
 
@@ -23,22 +23,22 @@ Instead of displaying only text, SignSpeak-AI understands the context of spoken 
 🚀 System Architecture
 
 ```
-User Speech
+User Speech languages Arabic
       │
       ▼
-Speech-to-Text
+Speech-to-Text languages Arabic 
       │
       ▼
-Recognized Sentence
+Recognized Sentence languages Arabic 
       │
       ▼
-Fireworks AI (LLM)
+Fireworks AI (LLM) languages Arabic 
       │
-      ├── English Translation
-      └── Gesture Extraction
+      ├── English Translation languages 
+      └── Gesture Extraction languages Arabic 
               │
               ▼
-Gesture Mapping
+Gesture Mapping languages 
               │
               ▼
 Supabase Storage
@@ -47,39 +47,42 @@ Supabase Storage
 Gesture Video URLs
               │
               ▼
-Flutter Video Player
+Flutter Video Player languages Arabic 
               │
               ▼
-Sign Language Animation
+Sign Language Animation languages Arabic 
 ```
 
 
-🧠 AI Pipeline
+🧠 AI Pipeline languages Arabic 
 
 Our AI pipeline consists of four main stages.
 
-1. Speech Recognition
+1. Speech Recognition Arabic 
 
-The application captures the user's speech using Flutter Speech-to-Text.
+import ‘package:speech_to_text/speech_to_text.dart’;languages Arabic 
 
-Example
+class SpeechServicr {
+  final SpeechToText _speech = SpeechToText();languages Arabic 
+
+  Future<String> listen() async {
 
 
 ```
-Halo apa kabar
+Halo apa kabar languages Arabic 
 ```
 
 ↓
 
-Recognized Text
+Recognized Text languages 
 
 ```
-Halo apa kabar
+Halo apa kabar languages Arabic 
 ```
 
 ---
 
-2. Context Understanding
+2. Al Understanding
 
 Instead of performing simple keyword matching, our Large Language Model first understands the semantic meaning of the sentence.
 
@@ -130,7 +133,7 @@ Public URLs
 
 ---
 
-4. Sequential Gesture Playback
+4. Sequential Video Playback
 
 Gesture videos are played automatically in sequence.
 
@@ -255,7 +258,7 @@ Automatically plays multiple gesture videos in sequence.
 
 Traditional systems perform simple keyword matching.
 
-SignSpeak-AI uses a Large Language Model to understand the meaning of a sentence before selecting the most appropriate sign language gestures.
+Ahmed-Deaf-11 ASL uses a Large Language Model to understand the meaning of a sentence before selecting the most appropriate sign language gestures.
 
 This enables more accurate gesture selection while preserving the context of natural conversation.
 
@@ -273,7 +276,7 @@ This enables more accurate gesture selection while preserving the context of nat
 
 👥 Team
 
-Team SignSpeak-AI
+Team Ahmed-Deaf-11 ASL
 
 Built for the AMD Developer Challenge.
 
